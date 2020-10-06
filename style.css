@@ -1,0 +1,269 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+/*   border: solid 1px red; */
+}
+.home{
+  width: 100%;
+  height: 600px;
+  background: url(https://www.taxicar-trip.com/wp-content/uploads/2019/04/%E5%8F%B0%E7%81%A3%E5%8C%85%E8%BB%8A%E6%97%85%E9%81%8A%E5%8C%85%E8%BB%8A%E6%97%85%E9%81%8A%E6%8E%A8%E8%96%A6%E5%8F%B0%E5%8C%97%E5%8C%85%E8%BB%8A%E6%99%AF%E9%BB%9E%E5%8F%A4%E8%B9%9F%E5%8C%85%E8%BB%8A%E7%BE%8E%E9%A3%9F%E5%8C%85%E8%BB%8A%E9%A2%A8%E6%99%AF%E5%8C%85%E8%BB%8A%E5%8C%85%E8%BB%8A%E6%97%85%E9%81%8A%E6%8E%A8%E8%96%A6%E5%8C%85%E8%BB%8A%E6%97%85%E9%81%8A%E8%B2%BB%E7%94%A8.jpg);
+  background-size:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+/*   border: solid 1px red; */
+}
+h1{
+	font-size: 40px;
+  z-index:2;
+/*   background: #fcaf62; */
+}
+p{
+	font-size: 26px;
+}
+.banner{
+/*   background-color:lightblue; */
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size:40px;
+/*   position: fixed; */
+}
+a:link {
+  font-size: 20px;
+  margin: 30px;
+  text-decoration: none;
+  color: #444444;
+}
+/* a:hover{
+  background-color: skyblue;
+} */
+.company{
+  position: relative;
+
+  width:100%;
+  height:500px;
+/*   background: #fce995; */
+/*   border-bottom: solid 3px black; */
+}
+.text{
+  position: absolute;
+  font-size:32px;
+  font-family:微軟正黑體;
+  top: 100px;
+  left: 300px;
+  color: #26180a;
+}
+iframe{
+  position: relative;
+  left: 900px;
+  top: 0px;
+}
+p{
+    font-family:微軟正黑體;
+  font-size: 28px;
+}
+.news{
+  width:100%;
+  height:390px;
+  border-top: solid 3px #85dbf2;
+
+}
+.news.one{
+  border-top: dotted 3px #85dbf2;
+}
+.trip{
+  position: relative;
+  left: 300px;
+  width: 500px;
+  height:300px;
+  background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQY-wFWqPVv4eha9ePYCgpCtBt55LtpYXI4IA&usqp=CAU);
+  background-size: 100%;
+  background-position: center;
+  margin: 10px;
+  float: left; 
+}
+.trip.one{
+background:url(https://icrvb3jy.xinmedia.com/solomo/article/156004/98A67E46-AC8C-E515-8714-D22D65BA83F9.jpeg);
+   background-size: 100%;
+  background-position: center;
+}
+.title{
+  font-size: 34px;
+  font-family: 微軟正黑體;
+}
+.word{
+  position: relative;
+  left: 150px;
+  top:50px;
+  font-size: 30px;
+  font-family: 微軟正黑體;
+  text-align: center;
+}
+.work{
+  width:100%;
+  height:600px;
+border-top: solid 3px #85dbf2;
+}
+.people{
+  position: relative;
+  width: 420px;
+  height: 450px;
+  left: 300px;
+  background: #85dbf2;
+  float: left;
+  margin: 20px;
+  text-align:center;
+  font-size:30px;
+}
+.mask{
+  position: absolute;
+  width:420px;
+  height:450px;
+  background: #1d2c33;
+  text-align: center;
+  color:#FFFFFF;
+  top: 0px;
+  opacity:0;
+  z-index:2;
+}
+.people a:hover .mask{
+  opacity:1;
+}
+.history{
+  width:100%;
+  height: 700px;
+  left:500px;
+  border-top: solid 3px #85dbf2;
+/*   background: #fce995; */
+}
+.photo{
+  position: absolute;
+  left:130px;
+  width:80%;
+  height: 600px;
+  margin: 20px;
+  background: url(https://timtingtravel.com/wp-content/uploads/2019/06/14-14-Kawarau-Bridge-Bungy-1024x684.jpg);
+  background-size:100%;
+  background-position:center;
+  
+    animation-name:a1;
+    animation-duration:30s;
+  animation-iteration-count: infinite;
+
+}
+.aa{
+  background: url(https://www.fotobeginner.com/wp-content/uploads/2015/01/186-748x499.jpg);
+   background-size:100%;
+  background-position:center;
+     animation-name:a2;
+    animation-duration:30s;
+  animation-iteration-count: infinite;
+}
+.bb{
+  background: url(https://farm8.static.flickr.com/7337/27532293194_6ce2e32696_b.jpg);
+     animation-name:a3;
+    animation-duration:30s;
+  animation-iteration-count: infinite;
+    background-size: 100%;
+  background-position:center;
+  
+}
+.cc{
+  background: url(https://cdn1-digiphoto.techbang.com/system/images/124901/original/7d4012268131717149af4e7369d07187.jpg?1548392388);
+     animation-name:a4;
+    animation-duration:30s;
+  animation-iteration-count: infinite;
+    background-size: 100%;
+  background-position:center;
+}
+.dd{
+  background: url(https://photox.pchome.com.tw/s03/s8901002_pc/2/123606478889/);
+     animation-name:a5;
+    animation-duration:30s;
+  animation-iteration-count: infinite;
+      background-size: 100%;
+  background-position:center;
+}
+@keyframes a1{
+  0%{
+    opacity: 100%;
+  }
+  17%{opacity:100%;
+    
+  }
+  20%{
+    opacity:0%;
+  }
+  100%{
+    opacity:0%;
+  }
+}
+@keyframes a2{
+  0%{
+    opacity: 0%;
+  }
+  17%{
+    opacity:0%;
+  }
+  20%{
+    opacity:100%;
+  }
+  37%{
+    opacity:100%;
+  }
+  40%{
+    opacity:0%;
+  }
+}
+@keyframes a3{
+  0%{
+    opacity: 0%;
+  }
+  37%{
+    opacity:0%;
+  }
+  40%{
+    opacity:100%;
+  }
+  57%{
+    opacity:100%;  
+  }
+  60%{
+    opacity:0%;
+  }
+}
+@keyframes a4{
+  0%{
+    opacity: 0%;
+  }
+  57%{
+    opacity:0%;
+  }
+  60%{
+    opacity:100%;
+  }
+  77%{
+    opacity:100%;  
+  }
+  80%{
+    opacity:0%;
+  }
+}
+@keyframes a5{
+  0%{
+    opacity: 0%;
+  }
+  77%{
+    opacity:0%;
+  }
+  80%{
+    opacity:100%;
+  }
+  97%{
+    opacity:100%;  
+  }
+  100%{
+    opacity:100%;
+  }
+}
